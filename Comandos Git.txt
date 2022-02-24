@@ -1,1 +1,19 @@
+git tiene 3 espacios
+1. la carpeta del proyecto
+2. la carpeta del area de ensayo
+3. la carpeta de respaldo
+
 git init para crear el repositorio
+git status -s muestra todo lo que tenemos en el directorio
+   ?? en rojo, dice que esos archivos no se estan guardando
+   A en verde, cuando fue agregado al ensayo
+      Si no muestra nada entonces es porque todo ya fue respaldado
+   M en rojo, es que un archivo fue modificado y esta para respaldarse
+git add . sube todo de la carpeta del proyecto al area de ensayo
+git commit -m "Comienzo del respaldo" para hacer un respaldo
+git log --oneline muestra cuantos respaldo se han realizado
+   f1cb112 (HEAD -> master) Comienzo del respaldo
+git reset --hard 7b f1cb112 restaura el codigo fuente a la version que se esta indicando
+
+
+
