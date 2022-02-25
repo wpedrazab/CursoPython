@@ -17,6 +17,13 @@ git log --oneline muestra cuantos respaldo se han realizado
 git reset --hard 7b f1cb112 restaura el codigo fuente a la version que se esta indicando
 git commit -am "Nuevo respaldo" asi se agregan (add) nuevos archivos que existan y se hace commit a la vez
 
+Para modificar cosas, por ejemplo la descripcion de un commit
+git commit --amend esto abre la ventana del editor que permite hacer cambios
+   :i para comenzar a editar
+   :wq para salir de editar 
+
+
+
 
 
 
