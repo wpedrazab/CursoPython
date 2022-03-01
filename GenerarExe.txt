@@ -12,4 +12,5 @@ Para generar el ejecutable:
 --windowwed es para evitar que abra la consola cuando corremos el exe
 --onefile para que genere todo en un solo archivo, incluso si no tiene python instalado
 
+Para generar el ejecutable empaquetado con todo y agregando un icono
 pyinstaller --windowed --onefile --icon=./logo.ico practicacalculadora.py
