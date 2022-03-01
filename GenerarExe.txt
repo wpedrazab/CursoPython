@@ -1,0 +1,15 @@
+Para crear un instalador
+cmd
+pip install pyinstaller
+
+Esto me pidio actualizar la version:
+
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 
+'C:\Users\wpedr\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+
+Para generar el ejecutable:
+--windowwed es para evitar que abra la consola cuando corremos el exe
+--onefile para que genere todo en un solo archivo, incluso si no tiene python instalado
+
+pyinstaller --windowed --onefile --icon=./logo.ico practicacalculadora.py
